@@ -126,6 +126,18 @@ DATABASES = {
     }
 }
 
+DATABASES = {
+    "default": {
+        "ENGINE": "django.db.backends.sqlite3",
+        "NAME": "capstone_db",  # BASE_DIR / 'db.sqlite3',
+        "USER": "admintarnue",
+        "PASSWORD": "Kollie2014",
+        "HOST": "localhost",
+        "PORT": "3306",
+    }
+}
+
+
 # https://docs.djangoproject.com/en/stable/ref/settings/#std:setting-DEFAULT_AUTO_FIELD
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
